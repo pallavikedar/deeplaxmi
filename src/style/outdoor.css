@@ -1,0 +1,40 @@
+.outdoor_amenities_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: end;
+  margin-top: 35px;
+}
+.green_party {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.green_party img {
+  height: 77px;
+  width: 90px;
+}
+@media (max-width: 426px) {
+  /* .main_header .logo {
+    height: 70px;
+    width: 69px;
+  } */
+  .outdoor_amenities_section {
+    grid-template-columns: 1fr 1fr;
+  }
+  .green_party {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .green_party img {
+    height: 50px;
+    width: 50px;
+  }
+  .green_party p {
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+  }
+}

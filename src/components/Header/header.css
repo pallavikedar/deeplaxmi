@@ -1,0 +1,192 @@
+.mini_header {
+  background-color: #1e1e1e;
+  display: flex;
+  color: white;
+  gap: 25px;
+  height: 40px;
+  align-items: center;
+  justify-content: end;
+}
+.mini_header_social_icon {
+  margin-right: 100px;
+  display: flex;
+  gap: 13px;
+  cursor: pointer;
+  color: white;
+}
+.mini_header_social_icon a {
+  text-decoration: none;
+  color: white;
+}
+.main_header {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+.peace_logo {
+  height: 130px;
+  width: 130px;
+}
+.peace_logo img {
+  height: 100%;
+  width: 100%;
+}
+.karam_logo {
+  width: 110px;
+  height: 110px;
+}
+.karam_logo img {
+  height: 100%;
+  width: 100%;
+}
+.main_header .logo {
+  height: 150px;
+  width: 140px;
+}
+.main_header .logo img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+.main_links {
+  display: flex;
+  gap: 33px;
+}
+.navlink {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+  color: black;
+}
+.hamburgar_icon {
+  display: none;
+}
+.main_links2 {
+  display: flex;
+  gap: 33px;
+}
+/* .active {
+  color: orange;
+} */
+/* ****peace header */
+.brochure_section {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 80px;
+  align-items: center;
+  justify-content: end;
+}
+.brochure_section .button {
+  margin-right: 50px;
+}
+.brochure_section .button button {
+  background-color: #ff8100;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.schedule {
+  margin-right: 60px;
+  cursor: pointer;
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .main_header .logo {
+    height: 120px;
+    width: 121px;
+  }
+  .hamburgar_icon {
+    display: block;
+    font-size: 30px;
+  }
+  .main_links {
+    display: none;
+  }
+  .main_links2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 151px;
+    height: 250px;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  .mini_header {
+    justify-content: center;
+  }
+  .mini_header_social_icon {
+    margin-right: 0px;
+  }
+}
+
+/* Styles for devices with width less than or equal to 426px */
+@media (max-width: 426px) {
+  .main_header .logo {
+    height: 120px;
+    width: 120px;
+  }
+  .hamburgar_icon {
+    display: block;
+    font-size: 25px;
+  }
+  .main_links {
+    display: none;
+  }
+  .main_links2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 151px;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  .mini_header {
+    justify-content: center;
+  }
+  .mini_header_social_icon {
+    margin-right: 0px;
+  }
+  .brochure_section {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .brochure_section .button {
+    margin-right: 0px;
+  }
+  .brochure_section .button button {
+    padding: 5px 10px;
+    font-size: 11px;
+  }
+  .schedule {
+    margin-right: 0px;
+    font-size: 12px;
+  }
+  .karam_logo {
+    width: 80px;
+    height: 80px;
+  }
+}
