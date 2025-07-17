@@ -2,7 +2,7 @@ import React from "react";
 import "../../style/karamSlider.css";
 import img1 from "../../assets/images/kSlider1.jpeg";
 import img2 from "../../assets/images/kSlider2.jpeg";
-import img3 from "../../assets/images/kslider3.jpeg";
+import img3 from "../../assets/images/kslider3.jpeg"; 
 import img4 from "../../assets/images/kslider4.jpeg";
 import img5 from "../../assets/images/kslider5.jpeg";
 import { useState, useEffect } from "react";

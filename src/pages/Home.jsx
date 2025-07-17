@@ -1,10 +1,12 @@
 import React from "react";
-import videoFile from "../assets/video/WhatsApp Video 2024-07-25 at 14.58.22_1fa4026c.mp4";
+// import videoFile from "../assets/video/WhatsApp Video 2024-07-25 at 14.58.22_1fa4026c.mp4";
+import AarambhVideo from "../assets/video/VID-20250409-WA0000.mp4"
 import "../style/home.css";
 import building_img from "../assets/images/main_building.jpg";
 import gallery1 from "../assets/images/gallery1.jpeg";
 import gallery2 from "../assets/images/gallery2.webp";
 import gallery3 from "../assets/images/gallery3.webp";
+import aarambhe from "../assets/images/aarambh brochure_Front.jpg"
 import gallery4 from "../assets/images/gallery3.webp";
 import Footer from "../components/Footer/Footer";
 import { NavLink } from "react-router-dom";
@@ -27,7 +29,7 @@ function Home() {
     <>
       <Header />
       <div className="video_section">
-        <video src={videoFile} autoPlay loop muted></video>
+        <video src={AarambhVideo} autoPlay loop muted></video>
       </div>
       <div className="about_section" id="about">
         <div className="about_text">
@@ -117,6 +119,7 @@ function Home() {
               <p>KARAMCHAND PROPERTIES</p>
             </div>
           </NavLink>
+
           <NavLink to={"/royal"} className={"navlink"}>
             <div className="fisrt_card" data-aos="zoom-out-right">
               <div className="first_card_img">
@@ -125,7 +128,17 @@ function Home() {
               <p>ROYAL EMPIRE</p>
             </div>
           </NavLink>
+
+          <NavLink to={"/aarambhe"} className={"navlink"}>
+          <div className="fisrt_card" data-aos="zoom-out-right">
+            <div className="first_card_img">
+              <img src={aarambhe} alt="" />
+            </div>
+            <p>AARAMBHE CITY</p>
+          </div>
+        </NavLink>
         </div>
+
       </div>
       <div className="gallery_section">
         <div className="gallery_text">

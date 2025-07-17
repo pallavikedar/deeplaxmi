@@ -11,8 +11,8 @@ function KaramHeader() {
   }
   function handleBrochureDownload() {
     const link = document.createElement("a");
-    link.href = "/KaramChand.pdf"; // Path to your PDF file in the public folder
-    link.download = "KaramChand.pdf"; // The name of the downloaded file
+    link.href = "/KaramChand.pdf";
+    link.download = "KaramChand.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -32,6 +32,7 @@ function KaramHeader() {
         <div className="karam_logo">
           <img src={karm_logo} alt="" className="karam_header" />
         </div>
+        
         <div className={showMenu ? "main_links2" : "main_links"}>
           <HashLink
             to={"/"}

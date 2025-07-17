@@ -24,6 +24,7 @@ function Karamchand() {
     <>
       <KaramHeader />
       <KaramSlider />
+
       <div className="karam_about_section" id="karam_about">
         <div className="karam_about_text_section">
           <div className="karm_about_heading" data-aos="fade-up">
@@ -63,6 +64,7 @@ function Karamchand() {
           />
         </div>
       </div>
+      
       <div className="karam_mission_section">
         <div
           className="karam_mission_image"
@@ -99,6 +101,7 @@ function Karamchand() {
           </div>
         </div>
       </div>
+
       <div className="karam_master_plan">
         <div className="k_master_plan_heading" data-aos="zoom-in-down">
           <h2>MASTER PLAN</h2>
@@ -107,6 +110,7 @@ function Karamchand() {
           <img src={k_master_plan} alt="k_master_plan" />
         </div>
       </div>
+      
       <div className="karam_amenities_section" id="karam_amenities">
         <h2 data-aos="zoom-out">AMENITIES</h2>
       </div>
